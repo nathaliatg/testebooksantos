@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store # macOS specific
+coverage/
+
+# Backend specific
+backend/database.sqlite
+backend/.env
+
+# Frontend specific
+frontend/dist/
+frontend/.env
