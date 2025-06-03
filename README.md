@@ -124,7 +124,7 @@ cd testebooksantos
 ```bash
 cd backend
 npm install
-cp .env.example .env  # Verifique se contém PORT=3001
+cp .env.example .env    # Crie seu arquivo .env local copiando o exemplo
 npm start
 ```
 
@@ -137,7 +137,7 @@ Em um novo terminal:
 ```bash
 cd frontend
 npm install
-cp .env.example .env  # Deve conter: VITE_API_BASE_URL=http://localhost:3001/api
+cp .env.example .env    # Crie seu arquivo .env local copiando o exemplo
 npm run dev
 ```
 
