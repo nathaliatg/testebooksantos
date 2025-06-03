@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const reservationsRouter = require('./routes/reservations');
@@ -6,6 +7,10 @@ const db = require('./utils/db'); // Garante que a conexão com o banco seja ini
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando em http://localhost:${PORT}`);
+});
 
 // Middleware
 app.use(cors()); // Permite requisições de diferentes origens (para o frontend)
