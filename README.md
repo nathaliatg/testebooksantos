@@ -24,7 +24,7 @@ Demonstração do sistema em funcionamento:
 - Cadastro de novas reservas com cálculo automático
 - Edição e exclusão de reservas
 - Dashboard com métricas de uso e faturamento
-- Design responsivo com Tailwind CSS
+- Design responsivo 
 
 ---
 
